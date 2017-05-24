@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?><!-- Copyright (C) 2008 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+
+<!-- See also values-xlarge for specializations for xlarge screens -->
+<resources>
+
+    <color name="base_bg">#ffeeeeee</color>
+    <color name="base_msg_color">#ff999999</color>
+    <color name="blue_ca">#85D3EF</color>
+    <color name="gray">#999999</color>
+    <color name="dark">#000000</color>
+    <color name="color_primary_red">#f44336</color>
+    <color name="color_primary_red_dark">#d32f2f</color>
+    <color name="color_primary_blue">#2eb4e1</color>
+    <color name="color_primary_blue_dark">#2eb4e1</color>
+    <!-- 雪白色 -->
+    <color name="floralwhite">#FFFAF0</color>
+    <color name="half_transparent">#50000000</color>
+    <color name="transparent">#00000000</color>
+
+    <color name="white">#FFFFFF</color>
+    <color name="orange">#FFAA56</color>
+    <color name="blue">#2eb4e1</color>
+    <color name="light_blue">#0090e0</color>
+    <color name="blue_9b">#9bdcf4</color>
+    <color name="add_account_blue">#00a0ff</color>
+    #f8f8f8
+    <color name="black_f8">#f8f8f8</color>
+    <color name="black">#000000</color>
+    <color name="red">#FF0000</color>
+    <color name="red_dark">#F76A4A</color>
+
+
+    <integer-array name="gplus_colors">
+        <item>@color/gplus_color_1</item>
+        <item>@color/gplus_color_2</item>
+        <item>@color/gplus_color_3</item>
+        <item>@color/gplus_color_4</item>
+    </integer-array>
+
+    <color name="gplus_color_1">#3e802f</color>
+    <color name="gplus_color_2">#f4b400</color>
+    <color name="gplus_color_3">#427fed</color>
+    <color name="gplus_color_4">#b23424</color>
+    <color name="primary">#EF5350</color>
+    <color name="secondary">#B71C1C</color>
+    <color name="overlay_light">#F8F8F8</color>
+
+
+    <!--通用对话框颜色 -->
+    <color name="blue_press">#0075bb</color>
+    <color name="blue_normal">#05a1fe</color>
+    <color name="blue_enabled">#aaaaaa</color>
+</resources>

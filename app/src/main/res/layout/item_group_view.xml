@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/notice"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:id="@+id/ico_arrow"
+        android:layout_width="wrap_content"
+        android:layout_height="17dp"
+        android:scaleType="centerInside"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="23dp"
+        android:layout_marginBottom="18dp"
+        android:src="@drawable/icon_fold"/>
+
+    <ImageView
+        android:id="@+id/ico_arrow_down"
+        android:layout_width="wrap_content"
+        android:layout_height="17dp"
+        android:scaleType="centerInside"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="23dp"
+        android:layout_marginBottom="18dp"
+        android:src="@drawable/icon_unfold"
+        android:visibility="gone"/>
+
+    <TextView
+        android:id="@+id/group_name"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="23dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="12dp"
+        android:ellipsize="end"
+        android:textSize="16sp"
+        android:textColor="@color/text_color"
+        android:text="老师"/>
+</RelativeLayout>
